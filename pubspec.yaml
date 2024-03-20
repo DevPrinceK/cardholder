@@ -16,6 +16,12 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.6
+  animated_text_kit:
+  intro_screen_onboarding_flutter:
+  hive:
+  hive_flutter:
+  
+
 
 dev_dependencies:
   flutter_test:
@@ -23,9 +29,10 @@ dev_dependencies:
 
 
   flutter_lints: ^3.0.0
+  hive_generator:
+  build_runner:
+  print_slayer:
 
-# For information on the generic Dart part of this file, see the
-# following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
 flutter:
@@ -33,9 +40,9 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/imgs/
+    - assets/logo/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
